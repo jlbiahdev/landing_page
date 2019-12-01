@@ -1,0 +1,33 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1em;
+
+}
+
+.wrapper > div:first-child {
+    padding-top: 25%;
+}
+
+.wrapper > div {
+    background: #eee;
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(odd) {
+    background: #ddd;
+}
+
+.welcome-msg {
+    font-size: 10em;
+}
+
+#date-part , #time-part{
+    color: black;
+    font-size: 2em;
+}
+
+#datetime > p,
+#welcome-msg > p {
+    text-align: center;
+}
