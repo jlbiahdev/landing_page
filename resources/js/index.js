@@ -8,4 +8,6 @@ $(document).ready(function() {
         $('#date-part').html(dayNow);
         $('#time-part').html(momentNow.format('A hh:mm:ss'));
     }, 100);
+    
+    document.getElementById("gsc-i-id1").placeholder = "What 're U looking for ?";
 });
