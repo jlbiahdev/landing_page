@@ -1,0 +1,27 @@
+.cse .gsc-search-button-v2, .gsc-search-button-V2 {
+    border-radius: 10px;
+    background-color: #013220;
+    background-image: linear-gradient(top,#033500,#004400);
+
+}
+
+.gsc-control-cse, gsc-control-cse-en {
+    background-color: red important;
+}
+
+.gsc-expansionArea {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: .25em;
+}
+
+.gsc-expansionArea > div {
+    border: 1px solid #333;
+}
+
+#gsc-i-id1 {
+    min-height: 27px;
+    font-size: 15px;
+}
+

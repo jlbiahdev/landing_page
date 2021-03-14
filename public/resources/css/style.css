@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400&display=swap');
+@import "./google.css";
+@import "./tools.css";
+@import "./responsive.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Jura', sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #edf0f4;
+}
+
+#header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    position: relative;
+
+}
+
+/*
+------------------------------------------------------ TAGS
+*/
+
+a {
+    color: #41424c;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #41424c;
+}
+
+input::placeholder {
+    color: #b2bec3;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    /* border: solid 1px red; */
+}
+
+li,
+li a {
+    width: 100%;
+}
+
+li a {
+    padding: 3px;
+}
+/*
+------------------------------------------------------- IDS
+*/
+
+#welcome-msg {
+    color: #fff;
+    height: auto;
+    /* border: solid green 1px; */
+    margin: 0 auto;
+}
+
+#welcome-msg > p {
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));
+    color: #fff;
+    font-size: 4em;
+    margin: auto 0;
+    text-align: center;
+    width: 500px;
+    padding: 3px;
+}
+
+/*
+--------------------------------------------------- CLASSES
+*/
+.wrapper {
+    margin: auto 0;
+    /* width: 1600px; */
+}
+
+.wrapper > div {
+    padding: 1em;
+}
+
+/*
+-------------------------------------------------- CALENDAR
+*/
+#calendar {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    display: block;
+    background: transparent;
+    width: 150px;
+    height: auto;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.month-part {
+    border-radius: 5px 5px 0 0;
+    background: #ae0b28;
+    color: #fff;
+    height: auto;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.date-part {
+    background: #fff;
+    color: #435a56;
+    height: auto;
+    text-align: center;
+    font-size: 5em;
+}
+
+#day-part {
+    background: #fff;
+    color: #435a56;
+    height: auto;
+    text-align: center;
+    font-size: .15em;
+}
+
+.time-part {
+    background: #435a56;
+    color: #fff;
+    height: auto;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.pm-part {
+    background: #435a56;
+    border-radius:0 0 5px 5px;
+    color: #fff;
+    height: auto;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/*
+-------------------------------------------------- header-content
+*/
+
+.header-content {
+    height: auto;
+}
+
+/*
+-------------------------------------------------- usefull-links
+*/
+
+.links {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6));
+    border-radius: 5px;
+    border: 1px solid #41424c;
+    color: #fff;
+    height: auto;
+    width: auto;
+}
+
+.links h2 {
+    text-align: center;
+}
+
+.links li {
+    border-bottom: solid 1px #41424c;
+    height: 35px;
+    padding-left: 2px;
+}
+
+.links a {
+    color: #fff;
+}
+
+.links a:hover {
+    transform: scale(0.98);
+    color: #F4B400;
+}
+
+.gcse-search {
+    background: red;
+    border: red solid 1px;}
+
+#google {
+    margin: 15px 0;
+    width: auto;
+}

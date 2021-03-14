@@ -1,0 +1,59 @@
+/*
+------------------------------------------------------ FLEX
+*/
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/*
+------------------------------------------------------ GRID
+*/
+
+.grid {
+    display: grid;
+    gap: 3px;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(100px, 300px);
+    margin-top: 5px;
+    text-align: justify;
+    width: 100%;
+}
+
+.grid-2 {
+    grid-template-columns: 3fr 1fr;
+}
+
+.grid-flow {
+    grid: auto-flow / 1fr 1fr 1fr;
+}
+
+/*
+---------------------------------------------- FONT AWESOME
+*/
+
+.fab,
+.far,
+.fas {
+    color: #F4B400;
+}
+
+.link a:hover i {
+    color: #F4B400;
+}
+
+.fa-chrome {
+    color: #1DA462;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-youtube {
+    color: #FF0000;
+    background: transparent;
+}
