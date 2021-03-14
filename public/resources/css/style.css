@@ -149,7 +149,7 @@ li a {
 }
 
 /*
--------------------------------------------------- header-content
+-------------------------------------------- HEADER-CONTENT
 */
 
 .header-content {
@@ -157,7 +157,7 @@ li a {
 }
 
 /*
--------------------------------------------------- usefull-links
+--------------------------------------------- USEFULL-LINKS
 */
 
 .links {
@@ -187,12 +187,54 @@ li a {
     transform: scale(0.98);
     color: #F4B400;
 }
-
+/*
+---------------------------------------------------- GOOGLE
+ */
 .gcse-search {
     background: red;
-    border: red solid 1px;}
+    /* border: red solid 1px; */
+}
 
 #google {
     margin: 15px 0;
     width: auto;
+}
+
+.google {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1));
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 0ch;
+}
+
+.google span {
+    font-size: 6em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.g1 {
+    text-transform: capitalize;
+}
+
+.g1, .g2 {
+    color: #4285F4;
+}
+
+.o1, .e {
+    color: #DB4437;
+}
+
+.o2 {
+    color: #F4B400;
+}
+
+.l {
+    color: #0F9D58;
+}
+
+.search {
+    text-transform: capitalize;
 }
