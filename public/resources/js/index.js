@@ -26,19 +26,20 @@ function getImages() {
     .then(data => {
         var item = JSON.parse(data);
         console.log(item);
+        var url = `url(${'../../vendors/img/somnath-ghosh-bnGri2G0i4U-unsplash.jpg'})`;
 
-        if (!item)
+        if (item)
         {
-            console.log('../img/roxane.jpg');
-        }
-        else
-        {
-            var url = item.urls.full;
+            url = `url(${item.urls.full})`;
             var user = item.user.name;
-
-            document.getElementById('header').style.backgroundImage=`url(${url})`
             console.log(item);
         }
+
+        document.getElementById('header').style.backgroundImage = url;
+    })
+    .catch(() => {
+        var url = '../../vendors/img/somnath-ghosh-bnGri2G0i4U-unsplash.jpg';
+        document.getElementById('header').style.backgroundImage = `url(${url})`;
     })
 }
 
