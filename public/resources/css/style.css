@@ -67,15 +67,14 @@ li a {
     height: auto;
     /* border: solid green 1px; */
     margin: 0 auto;
+    width: 500px;
 }
 
 #welcome-msg > p {
     background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));
     color: #fff;
     font-size: 4em;
-    margin: auto 0;
     text-align: center;
-    width: 500px;
     padding: 3px;
 }
 
