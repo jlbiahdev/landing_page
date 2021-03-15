@@ -60,10 +60,6 @@
 @media(max-width: 480px) {
     /* body{ display: none;} */
 
-    #calendar {
-        border: solid magenta 1px;
-    }
-
     .header-content,
     #welcome-msg,
     #google,
